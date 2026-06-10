@@ -1,0 +1,13 @@
+Outcome,Experiment,Model,R2_Mean
+Obesity Rate (%),Controls Only,RandomForest,0.42839920812558424
+Obesity Rate (%),Controls Only,XGBoost,0.29379255317262803
+Obesity Rate (%),Raw Variables + Controls,RandomForest,0.5446917847724101
+Obesity Rate (%),Raw Variables + Controls,XGBoost,0.5509872438643044
+Diabetes Rate (%),Controls Only,RandomForest,0.6045152326658376
+Diabetes Rate (%),Controls Only,XGBoost,0.5803380871998278
+Diabetes Rate (%),Raw Variables + Controls,RandomForest,0.6633908893778722
+Diabetes Rate (%),Raw Variables + Controls,XGBoost,0.6797582944213072
+Medicare Cost Per Capita ($),Controls Only,RandomForest,0.03587299646161366
+Medicare Cost Per Capita ($),Controls Only,XGBoost,-0.05236500149072163
+Medicare Cost Per Capita ($),Raw Variables + Controls,RandomForest,0.20335169053483876
+Medicare Cost Per Capita ($),Raw Variables + Controls,XGBoost,0.15512075303590475

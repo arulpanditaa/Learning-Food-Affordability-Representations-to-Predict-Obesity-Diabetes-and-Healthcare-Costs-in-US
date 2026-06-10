@@ -1,0 +1,19 @@
+Outcome,Experiment,Model,R2_Mean
+Obesity Rate (%),Exp 1: Controls Only,RandomForest,0.5050962419849911
+Obesity Rate (%),Exp 1: Controls Only,XGBoost,0.4704858743492534
+Obesity Rate (%),Exp 2: Raw Vars + Controls,RandomForest,0.5903719820469655
+Obesity Rate (%),Exp 2: Raw Vars + Controls,XGBoost,0.5811496841387309
+Obesity Rate (%),Exp 3: Raw Vars + Controls + Spatial,RandomForest,0.5838593921212933
+Obesity Rate (%),Exp 3: Raw Vars + Controls + Spatial,XGBoost,0.5911489446401841
+Diabetes Rate (%),Exp 1: Controls Only,RandomForest,0.6701204927737642
+Diabetes Rate (%),Exp 1: Controls Only,XGBoost,0.6733239265312799
+Diabetes Rate (%),Exp 2: Raw Vars + Controls,RandomForest,0.7125925334256789
+Diabetes Rate (%),Exp 2: Raw Vars + Controls,XGBoost,0.7151146113347336
+Diabetes Rate (%),Exp 3: Raw Vars + Controls + Spatial,RandomForest,0.708540805217446
+Diabetes Rate (%),Exp 3: Raw Vars + Controls + Spatial,XGBoost,0.7226055549400886
+Medicare Cost Per Capita ($),Exp 1: Controls Only,RandomForest,0.12585072135865114
+Medicare Cost Per Capita ($),Exp 1: Controls Only,XGBoost,0.09761505805315862
+Medicare Cost Per Capita ($),Exp 2: Raw Vars + Controls,RandomForest,0.2495655901448539
+Medicare Cost Per Capita ($),Exp 2: Raw Vars + Controls,XGBoost,0.2598522802062054
+Medicare Cost Per Capita ($),Exp 3: Raw Vars + Controls + Spatial,RandomForest,0.30183927832549784
+Medicare Cost Per Capita ($),Exp 3: Raw Vars + Controls + Spatial,XGBoost,0.29452385217052746
