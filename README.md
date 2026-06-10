@@ -14,7 +14,9 @@ A key finding is a **$3.50/meal policy tipping point** identified via SHAP analy
 
 ## Research Poster
 
-The full capstone poster is available here: [`Capstone Poster.pdf`](Capstone%20Poster.pdf)
+![Capstone Poster](Figures/Capstone_Poster.png)
+
+> Full PDF version: [Capstone Poster.pdf](Capstone%20Poster.pdf)
 
 ---
 
