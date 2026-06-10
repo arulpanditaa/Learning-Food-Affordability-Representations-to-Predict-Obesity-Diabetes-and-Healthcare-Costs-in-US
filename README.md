@@ -14,7 +14,7 @@ A key finding is a **$3.50/meal policy tipping point** identified via SHAP analy
 
 ## Research Poster
 
-The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Poster.pdf)
+The full capstone poster is available here: [`Capstone Poster.pdf`](Capstone%20Poster.pdf)
 
 ---
 
@@ -33,10 +33,10 @@ The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Pos
 ```
 ├── README.md
 ├── requirements.txt
-├── Capstone_Poster.pdf
+├── Capstone Poster.pdf
 │
-├── data/
-│   ├── raw/                             # Original source data (USDA, CDC, CMS, ACS)
+├── Data/
+│   ├── Raw/                             # Original source data (USDA, CDC, CMS, ACS)
 │   │   ├── county_food_costs_2019_2023.csv
 │   │   ├── county_grocery_density.csv
 │   │   ├── county_median_income.csv
@@ -47,7 +47,7 @@ The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Pos
 │   │   ├── transportation_proxy_2024_clean.csv
 │   │   └── county_minimum_wage_2023_clean.csv
 │   │
-│   ├── processed/                       # Merged and feature-engineered datasets
+│   ├── Processed/                       # Merged and feature-engineered datasets
 │   │   ├── master_merged_8_files.csv
 │   │   ├── final_master_with_medicare_2023.csv
 │   │   ├── final_master_with_pca.csv
@@ -57,7 +57,7 @@ The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Pos
 │   │   ├── final_master_with_autoencoder_embeddings.csv
 │   │   └── final_spatial_ml_dataset.csv
 │   │
-│   └── results/                         # Model outputs and causal inference results
+│   └── Results/                         # Model outputs and causal inference results
 │       ├── baselines_results.csv
 │       ├── baseline_with_raw_spatial.csv
 │       ├── triple_baseline_final_results.csv
@@ -67,7 +67,7 @@ The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Pos
 │       ├── all_county_causal_effects.csv
 │       └── final_policy_ranking.csv
 │
-├── notebooks/
+├── Notebooks/
 │   ├── 01_initial_eda.ipynb
 │   ├── 02_individual_eda_analysis.ipynb
 │   ├── 03_pca_autoencoder_shap.ipynb
@@ -75,7 +75,7 @@ The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Pos
 │   ├── 05_dml_causal_inference.ipynb
 │   └── 06_dml_heterogeneous_effects.ipynb
 │
-├── shapefiles/                          # U.S. Census Bureau county boundaries
+├── Shapefiles/                          # U.S. Census Bureau county boundaries
 │   ├── cb_2018_us_county_500k.shp
 │   ├── cb_2018_us_county_500k.dbf
 │   ├── cb_2018_us_county_500k.shx
@@ -84,7 +84,7 @@ The full capstone poster is available here: [`Capstone_Poster.pdf`](Capstone_Pos
 │   ├── cb_2018_us_county_500k_shp_iso.xml
 │   └── cb_2018_us_county_500k_shp_ea_iso.xml
 │
-└── figures/                             # All output visualizations (PNGs)
+└── Figures/                             # All output visualizations (PNGs)
 ```
 
 ---
@@ -203,8 +203,8 @@ The SNAP finding highlights a **"Calories vs. Nutrition" trade-off** — simple 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Learning-Food-Affordability-Representations-to-Predict-Obesity-Diabetes-and-Healthcare-Costs-US.git
-cd Learning-Food-Affordability-Representations-to-Predict-Obesity-Diabetes-and-Healthcare-Costs-US
+git clone https://github.com/arulpanditaa/Learning-Food-Affordability-Representations-to-Predict-Obesity-Diabetes-and-Healthcare-Costs-in-US.git
+cd Learning-Food-Affordability-Representations-to-Predict-Obesity-Diabetes-and-Healthcare-Costs-in-US
 ```
 
 ### 2. Install dependencies
